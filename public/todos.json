@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Introduction to C Programming",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "photo": "https://i.ibb.co/sP7VHpQ/Rectangle-2-2.png",
+        "price": 15000,
+        "credit": 1
+    },
+    {
+        "id": 2,
+        "name": "Introduction to Algorithms",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "photo": "https://i.ibb.co/z7GMnyn/Rectangle-2-3.png",
+        "price": 25000,
+        "credit": 2
+    },
+    {
+        "id": 3,
+        "name": "Introduction to C++ for DSA",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "photo": "https://i.ibb.co/s6Q2NLP/Rectangle-2-4.png",
+        "price": 10000,
+        "credit": 10
+    }
+]

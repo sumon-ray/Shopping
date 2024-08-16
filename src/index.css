@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    position: relative;
+    overflow: hidden;
+    background-color: #171b39;
+    height: 100vh; /* Adjust this height as necessary */
+}
+
+.graphic {
+    position: absolute;
+    display: inline-block;
+    width: 838px;
+    height: 838px;
+    top: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.graphic-img {
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    width: 50%;
+    transition: all .6s ease;
+}
+
+.graphic-img:nth-child(1) {
+    transform: scale(1.05);
+}
+
+.graphic-img:nth-child(2) {
+    transform: scale(.88);
+    transition-delay: .2s;
+}
+
+.graphic-img:nth-child(3) {
+    transform: scale(.7);
+    transition-delay: .1s;
+}
+
+.graphic-img:nth-child(4) {
+    transform: scale(.52);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* position: relative; */
+}
+
+.products-container {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
+.proceed-link{
+    text-decoration: none;
+}
+.btn-proceed {
+    background: #FF9900;
+    width: 90%;
+    height: 56px;
+    font-size: 21px;
+    margin: 10px auto;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.pagination button{
+    margin-right: 10px;
+}
+.pagination .selected {
+    background-color: orange;
+}

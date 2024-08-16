@@ -1,0 +1,407 @@
+[
+    {
+        "product_name": "Introduction to C Programming",
+        "product_image": "https://i.ibb.co/sP7VHpQ/Rectangle-2-2.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 15000,
+        "category": "Programming",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to Algorithms",
+        "product_image": "https://i.ibb.co/z7GMnyn/Rectangle-2-3.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 25000,
+        "category": "Algorithms",
+        "ratings": 4.0,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to C++ for DSA",
+        "product_image": "https://i.ibb.co/s6Q2NLP/Rectangle-2-4.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 10000,
+        "category": "Data Structures & Algorithms",
+        "ratings": 4.7,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z"
+    },
+    {
+        "product_name": "Basic Data Structures",
+        "product_image": "https://i.ibb.co/6tbcdCc/Rectangle-3.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Data Structures",
+        "ratings": 4.3,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to OOP Python",
+        "product_image": "https://i.ibb.co/6XJ58mC/Rectangle-2.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Python Programming",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z"
+    },
+    {
+        "product_name": "Software Engineering",
+        "product_image": "https://i.ibb.co/L1PFPW3/Rectangle-2-5.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 23000,
+        "category": "Engineering",
+        "ratings": 4.2,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z"
+    },
+    {
+        "product_name": "AWS Cloud Computing",
+        "product_image": "https://i.ibb.co/GC6xY2Z/Rectangle-3-1.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Cloud Computing",
+        "ratings": 4.8,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z"
+    },
+    {
+        "product_name": "Database (MySQL)",
+        "product_image": "https://i.ibb.co/nm12dgJ/Rectangle-2-1.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 19000,
+        "category": "Database",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z"
+    },
+    {
+        "product_name": "Problem-Solving Part",
+        "product_image": "https://i.ibb.co/BKtbpwf/Rectangle-2-6.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 23000,
+        "category": "Problem Solving",
+        "ratings": 4.1,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to C Programming",
+        "product_image": "https://i.ibb.co/sP7VHpQ/Rectangle-2-2.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 15000,
+        "category": "Programming",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-16T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to Algorithms",
+        "product_image": "https://i.ibb.co/z7GMnyn/Rectangle-2-3.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 25000,
+        "category": "Algorithms",
+        "ratings": 4.2,
+        "product_creation_date_and_time": "2024-08-16T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to C++ for DSA",
+        "product_image": "https://i.ibb.co/s6Q2NLP/Rectangle-2-4.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 10000,
+        "category": "Data Structures & Algorithms",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-16T00:00:00Z"
+    },
+    {
+        "product_name": "Basic Data Structures",
+        "product_image": "https://i.ibb.co/6tbcdCc/Rectangle-3.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Data Structures",
+        "ratings": 4.1,
+        "product_creation_date_and_time": "2024-08-16T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to OOP Python",
+        "product_image": "https://i.ibb.co/6XJ58mC/Rectangle-2.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Python Programming",
+        "ratings": 4.7,
+        "product_creation_date_and_time": "2024-08-16T00:00:00Z"
+    },
+    {
+        "product_name": "Software Engineering",
+        "product_image": "https://i.ibb.co/L1PFPW3/Rectangle-2-5.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 23000,
+        "category": "Engineering",
+        "ratings": 4.3,
+        "product_creation_date_and_time": "2024-08-16T00:00:00Z"
+    },
+    {
+        "product_name": "AWS Cloud Computing",
+        "product_image": "https://i.ibb.co/GC6xY2Z/Rectangle-3-1.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Cloud Computing",
+        "ratings": 4.8,
+        "product_creation_date_and_time": "2024-08-16T00:00:00Z"
+    },
+    {
+        "product_name": "Database (MySQL)",
+        "product_image": "https://i.ibb.co/nm12dgJ/Rectangle-2-1.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 19000,
+        "category": "Database",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-16T00:00:00Z"
+    },
+    {
+        "product_name": "Problem-Solving Part",
+        "product_image": "https://i.ibb.co/BKtbpwf/Rectangle-2-6.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 23000,
+        "category": "Problem Solving",
+        "ratings": 4.2,
+        "product_creation_date_and_time": "2024-08-16T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to C Programming",
+        "product_image": "https://i.ibb.co/sP7VHpQ/Rectangle-2-2.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 15000,
+        "category": "Programming",
+        "ratings": 4.3,
+        "product_creation_date_and_time": "2024-08-17T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to Algorithms",
+        "product_image": "https://i.ibb.co/z7GMnyn/Rectangle-2-3.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 25000,
+        "category": "Algorithms",
+        "ratings": 4.1,
+        "product_creation_date_and_time": "2024-08-17T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to C++ for DSA",
+        "product_image": "https://i.ibb.co/s6Q2NLP/Rectangle-2-4.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 10000,
+        "category": "Data Structures & Algorithms",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-17T00:00:00Z"
+    },
+    {
+        "product_name": "Basic Data Structures",
+        "product_image": "https://i.ibb.co/6tbcdCc/Rectangle-3.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Data Structures",
+        "ratings": 4.2,
+        "product_creation_date_and_time": "2024-08-17T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to OOP Python",
+        "product_image": "https://i.ibb.co/6XJ58mC/Rectangle-2.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Python Programming",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-17T00:00:00Z"
+    },
+    {
+        "product_name": "Software Engineering",
+        "product_image": "https://i.ibb.co/L1PFPW3/Rectangle-2-5.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 23000,
+        "category": "Engineering",
+        "ratings": 4.0,
+        "product_creation_date_and_time": "2024-08-17T00:00:00Z"
+    },
+    {
+        "product_name": "AWS Cloud Computing",
+        "product_image": "https://i.ibb.co/GC6xY2Z/Rectangle-3-1.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Cloud Computing",
+        "ratings": 4.7,
+        "product_creation_date_and_time": "2024-08-17T00:00:00Z"
+    },
+    {
+        "product_name": "Database (MySQL)",
+        "product_image": "https://i.ibb.co/nm12dgJ/Rectangle-2-1.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 19000,
+        "category": "Database",
+        "ratings": 4.3,
+        "product_creation_date_and_time": "2024-08-17T00:00:00Z"
+    },
+    {
+        "product_name": "Problem-Solving Part",
+        "product_image": "https://i.ibb.co/BKtbpwf/Rectangle-2-6.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 23000,
+        "category": "Problem Solving",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-17T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to C Programming",
+        "product_image": "https://i.ibb.co/sP7VHpQ/Rectangle-2-2.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 15000,
+        "category": "Programming",
+        "ratings": 4.7,
+        "product_creation_date_and_time": "2024-08-18T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to Algorithms",
+        "product_image": "https://i.ibb.co/z7GMnyn/Rectangle-2-3.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 25000,
+        "category": "Algorithms",
+        "ratings": 4.3,
+        "product_creation_date_and_time": "2024-08-18T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to C++ for DSA",
+        "product_image": "https://i.ibb.co/s6Q2NLP/Rectangle-2-4.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 10000,
+        "category": "Data Structures & Algorithms",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-18T00:00:00Z"
+    },
+    {
+        "product_name": "Basic Data Structures",
+        "product_image": "https://i.ibb.co/6tbcdCc/Rectangle-3.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Data Structures",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-18T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to OOP Python",
+        "product_image": "https://i.ibb.co/6XJ58mC/Rectangle-2.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Python Programming",
+        "ratings": 4.8,
+        "product_creation_date_and_time": "2024-08-18T00:00:00Z"
+    },
+    {
+        "product_name": "Software Engineering",
+        "product_image": "https://i.ibb.co/L1PFPW3/Rectangle-2-5.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 23000,
+        "category": "Engineering",
+        "ratings": 4.1,
+        "product_creation_date_and_time": "2024-08-18T00:00:00Z"
+    },
+    {
+        "product_name": "AWS Cloud Computing",
+        "product_image": "https://i.ibb.co/GC6xY2Z/Rectangle-3-1.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Cloud Computing",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-18T00:00:00Z"
+    },
+    {
+        "product_name": "Database (MySQL)",
+        "product_image": "https://i.ibb.co/nm12dgJ/Rectangle-2-1.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 19000,
+        "category": "Database",
+        "ratings": 4.2,
+        "product_creation_date_and_time": "2024-08-18T00:00:00Z"
+    },
+    {
+        "product_name": "Problem-Solving Part",
+        "product_image": "https://i.ibb.co/BKtbpwf/Rectangle-2-6.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 23000,
+        "category": "Problem Solving",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-18T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to C Programming",
+        "product_image": "https://i.ibb.co/sP7VHpQ/Rectangle-2-2.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 15000,
+        "category": "Programming",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-19T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to Algorithms",
+        "product_image": "https://i.ibb.co/z7GMnyn/Rectangle-2-3.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 25000,
+        "category": "Algorithms",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-19T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to C++ for DSA",
+        "product_image": "https://i.ibb.co/s6Q2NLP/Rectangle-2-4.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 10000,
+        "category": "Data Structures & Algorithms",
+        "ratings": 4.3,
+        "product_creation_date_and_time": "2024-08-19T00:00:00Z"
+    },
+    {
+        "product_name": "Basic Data Structures",
+        "product_image": "https://i.ibb.co/6tbcdCc/Rectangle-3.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Data Structures",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-19T00:00:00Z"
+    },
+    {
+        "product_name": "Introduction to OOP Python",
+        "product_image": "https://i.ibb.co/6XJ58mC/Rectangle-2.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Python Programming",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-19T00:00:00Z"
+    },
+    {
+        "product_name": "Software Engineering",
+        "product_image": "https://i.ibb.co/L1PFPW3/Rectangle-2-5.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 23000,
+        "category": "Engineering",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-19T00:00:00Z"
+    },
+    {
+        "product_name": "AWS Cloud Computing",
+        "product_image": "https://i.ibb.co/GC6xY2Z/Rectangle-3-1.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "category": "Cloud Computing",
+        "ratings": 4.9,
+        "product_creation_date_and_time": "2024-08-19T00:00:00Z"
+    },
+    {
+        "product_name": "Database (MySQL)",
+        "product_image": "https://i.ibb.co/nm12dgJ/Rectangle-2-1.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 19000,
+        "category": "Database",
+        "ratings": 4.2,
+        "product_creation_date_and_time": "2024-08-19T00:00:00Z"
+    },
+    {
+        "product_name": "Problem-Solving Part",
+        "product_image": "https://i.ibb.co/BKtbpwf/Rectangle-2-6.png",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 23000,
+        "category": "Problem Solving",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-19T00:00:00Z"
+    }
+]
