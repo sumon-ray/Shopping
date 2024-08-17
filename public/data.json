@@ -6,7 +6,8 @@
         "price": 15000,
         "category": "Programming",
         "ratings": 4.5,
-        "product_creation_date_and_time": "2024-08-15T00:00:00Z"
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "nokia"
     },
     {
         "product_name": "Introduction to Algorithms",
@@ -15,7 +16,9 @@
         "price": 25000,
         "category": "Algorithms",
         "ratings": 4.0,
-        "product_creation_date_and_time": "2024-08-15T00:00:00Z"
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "samsung"
+
     },
     {
         "product_name": "Introduction to C++ for DSA",

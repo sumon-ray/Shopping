@@ -4,17 +4,23 @@ import axios from "axios";
 
 const HomeData = () => {
   const navigate = useNavigate();
-
   const [products, setProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
   const [itemsPerPage, setItemsPerPage] = useState(10);
   const [totalPages, setTotalPages] = useState(0);
   const [searchQuery, setSearchQuery] = useState("");
   const [error, setError] = useState("");
+  const [brand, setBrand] = useState("");
+  const [category, setCategory] = useState("");
+  const [minPrice, setMinPrice] = useState(0);
+  const [maxPrice, setMaxPrice] = useState(Infinity);
+  const [sortOption, setSortOption] = useState("");
 
   const fetchData = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/products?q=${searchQuery}&page=${currentPage}&size=${itemsPerPage}`);
+      const response = await axios.get(
+        `http://localhost:5000/products?q=${searchQuery}&page=${currentPage}&size=${itemsPerPage}&brand=${brand}&category=${category}&minPrice=${minPrice}&maxPrice=${maxPrice}&sort=${sortOption}`
+      );
       setProducts(response.data.products);
       setTotalPages(response.data.totalPages);
       setError(""); // Clear any previous errors
@@ -30,52 +36,115 @@ const HomeData = () => {
 
   useEffect(() => {
     fetchData();
-  }, [currentPage, itemsPerPage, searchQuery]);
+  }, [currentPage, itemsPerPage, searchQuery, brand, category, minPrice, maxPrice, sortOption]);
 
   const handleSearch = () => {
     setCurrentPage(0); // Reset to the first page
     fetchData();
   };
 
-  const handleItemsPerPage = (e) => {
-    const val = parseInt(e.target.value);
-    setItemsPerPage(val);
-    setCurrentPage(0);
-  };
-
-  const handlePrevPage = () => {
-    if (currentPage > 0) {
-      setCurrentPage(currentPage - 1);
-    }
-  };
-
-  const handleNextPage = () => {
-    if (currentPage < totalPages - 1) {
-      setCurrentPage(currentPage + 1);
-    }
-  };
-
   return (
     <div className="container mx-auto p-4">
       <div className="text-center mb-8">
-        <div className="flex justify-center items-center">
-          <input
-            type="text"
-            placeholder="Search"
+        <div className="flex gap-2 justify-center items-center">
+          <div className="flex justify-center items-center">
+            <input
+              type="text"
+              placeholder="Search"
+              className="input-md"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+            <button
+              onClick={handleSearch}
+              className="outline-none border-none bg-blue-500 font-sans text-lg text-slate-300 btn-md -translate-x-4"
+            >
+              Search
+            </button>
+          </div>
+
+          {/* Categorization Dropdown */}
+          <div className="dropdown">
+            <div tabIndex={0} role="button" className="btn m-1">
+              Filter
+            </div>
+            <ul
+              tabIndex={0}
+              className="dropdown-content menu bg-base-100 rounded-box z-[1] w-60 p-2 shadow"
+            >
+              <li>
+                <label>
+                  Brand Name
+                  <input
+                    type="text"
+                    className="input input-bordered w-full"
+                    value={brand}
+                    onChange={(e) => setBrand(e.target.value)}
+                  />
+                </label>
+              </li>
+              <li>
+                <label>
+                  Category Name
+                  <input
+                    type="text"
+                    className="input input-bordered w-full"
+                    value={category}
+                    onChange={(e) => setCategory(e.target.value)}
+                  />
+                </label>
+              </li>
+              <li>
+                <label>
+                  Price Range
+                  <div className="flex gap-2">
+                    <input
+                      type="number"
+                      placeholder="Min"
+                      className="input input-bordered w-full"
+                      value={minPrice}
+                      onChange={(e) => setMinPrice(Number(e.target.value))}
+                    />
+                    <input
+                      type="number"
+                      placeholder="Max"
+                      className="input input-bordered w-full"
+                      value={maxPrice === Infinity ? "" : maxPrice}
+                      onChange={(e) =>
+                        setMaxPrice(
+                          e.target.value === "" ? Infinity : Number(e.target.value)
+                        )
+                      }
+                    />
+                  </div>
+                </label>
+              </li>
+            </ul>
+          </div>
+
+          {/* Sort by Price and Date */}
+          <select
+            value={sortOption}
+            onChange={(e) => setSortOption(e.target.value)}
             className="input-md"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-          <button
-            onClick={handleSearch}
-            className="outline-none border-none bg-blue-500 font-sans text-lg text-slate-300 btn-md -translate-x-4"
           >
-            Search
-          </button>
+            <option value="">Sort</option>
+            <option value="priceLowHigh">Price: Low to High</option>
+            <option value="priceHighLow">Price: High to Low</option>
+            <option value="dateNewest">Newest First</option>
+          </select>
         </div>
-        {error && <p className="text-red-500 mx-auto flex flex-col justify-center items-center mt-2"> 
-        <img className="w-96" src="https://img.freepik.com/free-vector/404-error-with-person-looking-concept-illustration_114360-7932.jpg?t=st=1723837570~exp=1723841170~hmac=330707885b0254a7d3a2303b6827fea9cc5a4ac068c59281e5bb870e8df39379&w=740" alt="" />
-        {error}</p>}
+
+        {error && (
+          <p className="text-red-500 mx-auto flex flex-col justify-center items-center mt-2">
+            <img
+              className="w-96"
+              src="https://img.freepik.com/free-vector/404-error-with-person-looking-concept-illustration_114360-7932.jpg"
+              alt="Error"
+            />
+            {error}
+          </p>
+        )}
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -90,6 +159,7 @@ const HomeData = () => {
               alt={product.product_name}
             />
             <div className="p-4">
+              <p className="text-red-600">Brand Name: {product.brand_name} </p>
               <h2 className="text-lg font-semibold text-gray-800">
                 {product.product_name}
               </h2>
@@ -101,7 +171,10 @@ const HomeData = () => {
               </p>
               <p className="text-gray-600 mt-3">{product.description}</p>
               <p className="text-gray-500 text-sm mt-2">
-                Date: {new Date(product.product_creation_date_and_time).toLocaleString()}
+                Date:{" "}
+                {new Date(
+                  product.product_creation_date_and_time
+                ).toLocaleString()}
               </p>
               <p className="text-xl font-bold text-gray-800 mt-4">
                 ${product.price}
@@ -117,24 +190,36 @@ const HomeData = () => {
         ))}
       </div>
 
-      <div className="pagination">
-        <p>Current page: {currentPage}</p>
-        <button onClick={handlePrevPage}>Prev</button>
+      <div className="pagination mt-6 flex justify-center items-center gap-4">
+        <button
+          onClick={() => currentPage > 0 && setCurrentPage(currentPage - 1)}
+          className="btn btn-primary"
+        >
+          Prev
+        </button>
         {Array.from({ length: totalPages }).map((_, pageIndex) => (
           <button
-            className={currentPage === pageIndex ? "selected" : undefined}
+            className={`btn ${currentPage === pageIndex ? "btn-active" : ""}`}
             onClick={() => setCurrentPage(pageIndex)}
             key={pageIndex}
           >
             {pageIndex + 1}
           </button>
         ))}
-        <button onClick={handleNextPage}>Next</button>
-        <select value={itemsPerPage} onChange={handleItemsPerPage}>
+        <button
+          onClick={() => currentPage < totalPages - 1 && setCurrentPage(currentPage + 1)}
+          className="btn btn-primary"
+        >
+          Next
+        </button>
+        <select
+          value={itemsPerPage}
+          onChange={(e) => setItemsPerPage(parseInt(e.target.value))}
+          className="input input-bordered w-24 ml-4"
+        >
           <option value="5">5</option>
           <option value="10">10</option>
-          <option value="20">20</option>
-          <option value="50">50</option>
+          <option value="15">15</option>
         </select>
       </div>
     </div>
