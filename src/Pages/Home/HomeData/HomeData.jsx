@@ -26,6 +26,7 @@ const HomeData = () => {
         //https://pagination-ten-green.vercel.app/
         // setLoading(true) 
 
+        
         `https://pagination-ten-green.vercel.app/products?q=${searchQuery}&page=${currentPage}&size=${itemsPerPage}&brand=${brand}&category=${category}&minPrice=${minPrice}&maxPrice=${maxPrice}&sort=${sortOption}`
       );
       setProducts(response.data.products);
