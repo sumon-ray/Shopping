@@ -1,4 +1,4 @@
-# Frontend for Mobile Shopping
+# Mobile Shopping
 
 ## Overview
 This is the frontend for a Mobile Shopping application. It is built with React.js and provides the user interface for the application.
