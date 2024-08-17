@@ -72,7 +72,6 @@ const HomeData = () => {
               tabIndex={0}
               className="dropdown-content menu bg-base-100 rounded-box z-[1] w-60 p-2 shadow"
             >
-              
               <li>
                 <label>
                   Brand Name
