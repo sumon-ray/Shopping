@@ -17,6 +17,22 @@ This is the frontend for a Mobile Shopping application. It is built with React.j
    git clone https://github.com/your-username/frontend-repo.git
    cd frontend-repo
 
+2. Install dependencies:
+
+Using npm:
+
+npm install
+
+3. Set up environment variables:
+
+Create a .env file in the root directory and add the necessary environment variables. Example:
+
+REACT_APP_API_URL=http://localhost:5000
+
+4. Build for Production: 
+
+To build the application for production, use:
+npm run build
 
 To clone a project from GitHub and run it locally, follow these steps:
 
