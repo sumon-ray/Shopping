@@ -12,16 +12,19 @@ import {
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import UseAuth from "../../Hooks/UseAuth";
+import { FaCartShopping } from "react-icons/fa6";
 
 export function Component() {
   const [toggle, setToggle] = useState(false);
   const { user, logOutUser } = UseAuth(); // Assuming loginUser is the correct function
 // console.log(user)
   return (
-    <Navbar fluid rounded className="">
-      <NavbarBrand href="https://flowbite-react.com">
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Profile
+    <Navbar fluid rounded className="bg-[#F5FFFA] shadow-lg shadow-gray-400 ">
+      <NavbarBrand href="/">
+        {/* <img className="w-12" src="https://i.ibb.co/2qLGPVq/521-5216062-shopping-cart-transparent-background-shopping-cart-icon-png.png" alt="nai" /> */}
+        <FaCartShopping className="text-2xl text-red-500 mr-2" />
+        <span className="text-black self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+        Shopping
         </span>
       </NavbarBrand>
       <div className="flex justify-center items-center gap-3 md:order-2">

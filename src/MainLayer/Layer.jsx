@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { Component } from "../Shared/Component/Component";
+import { FooterComponent } from "../Shared/Footer/FooterComponent";
 
 const Layer = () => {
   return (
@@ -11,6 +12,7 @@ const Layer = () => {
       <div>
         <Outlet />
       </div>
+      <FooterComponent />
     </>
   );
 };

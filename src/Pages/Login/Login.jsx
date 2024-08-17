@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Registration from '../../../src/assets/registration.svg';
 import { NavLink, useNavigate } from 'react-router-dom';
 import UseAuth from '../../Hooks/UseAuth';
+import { toast } from 'react-toastify';
+
 
 const Login = () => {
     const { loginUser, loginWithGoogle } = UseAuth(); // Assuming loginUser is the correct function
@@ -22,7 +24,7 @@ const Login = () => {
         const { email, password } = product;
         loginUser(email, password) // Call the loginUser function with email and password
             .then(() => {
-                alert('Logged in successfully');
+                toast('Logged in successfully');
                 navigate("/");
             })
             .catch((error) => {
@@ -48,7 +50,7 @@ const Login = () => {
                     <div className="text-center hidden md:block w-8/12">
                         <img className='w-[500px] h-full object-cover' src={Registration} alt="Registration" />
                     </div>
-                    <div className="w-full outline-double max-w-md p-8 space-y-3 rounded-xl dark:bg-gray-50 dark:text-gray-800">
+                    <div className="w-full bg-black outline-double max-w-md p-8 space-y-3 rounded-xl dark:bg-gray-50 dark:text-gray-800">
                         <h1 className="text-2xl font-bold text-center">Login</h1>
                         <form onSubmit={handleSubmit} noValidate className="space-y-6">
                             <div className="space-y-1 text-sm">

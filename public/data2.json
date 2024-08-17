@@ -1,0 +1,591 @@
+[
+    {
+        "product_name": "Huawei MateBook X Pro",
+        "product_image": "https://i.ibb.co/Bqwfk1j/laptop-with-colorful-screen-white-background-3d-rendering-1142-58703.jpg",
+        "description": "The Huawei MateBook X Pro is a gorgeously-designed laptop with a stunning screen, packed with cutting-edge components, and a battery life that runs rings around many of its rivals.",
+        "price": 1499,
+        "category": "Laptop",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Huawei"
+    },
+    {
+        "product_name": "Apple Macbook Pro 2018",
+        "product_image": "https://i.ibb.co/27SnwsZ/laptop-computer-with-colorful-screen-white-background-3d-render-1142-54662.jpg",
+        "description": "The 2018 model of the 15-inch MacBook Pro with Touch Bar offers advanced features and a high price tag, ideal for Apple diehards.",
+        "price": 3199,
+        "category": "Laptop",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Apple"
+    },
+    {
+        "product_name": "Dell XPS 13",
+        "product_image": "https://i.ibb.co/VtgnFP6/3d-rendering-laptop-against-white-background-computergenerated-image-1003619-338.jpg",
+        "description": "The Dell XPS 13 is known for its stunning display and customization options, continuing to be a popular Windows laptop choice.",
+        "price": 1199,
+        "category": "Laptop",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Dell"
+    },
+    {
+        "product_name": "Asus ZenBook Flip S",
+        "product_image": "https://i.ibb.co/0f42xgg/w800.png",
+        "description": "A 2-in-1 laptop with a stunning design, ideal for both laptop and tablet use.",
+        "price": 1399,
+        "category": "Laptop",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Asus"
+    },
+    {
+        "product_name": "Samsung Notebook 9",
+        "product_image": "https://i.ibb.co/7WmFpRv/01-NP900-X3-L-K06-US-08252016.jpg",
+        "description": "The Samsung Notebook 9 is a lightweight, high-performance laptop with a competitive price.",
+        "price": 1499,
+        "category": "Laptop",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Samsung"
+    },
+    {
+        "product_name": "Apple iMac 24-inch",
+        "product_image": "https://i.ibb.co/kHcwqbn/2949-17927.jpg",
+        "description": "The 24-inch iMac combines powerful performance with a stunning 4.5K Retina display and various color options.",
+        "price": 1799,
+        "category": "Desktop",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Apple"
+    },
+    {
+        "product_name": "Dell Alienware Aurora R13",
+        "product_image": "https://i.ibb.co/M6GmYfg/61-Lj0z2-Fk-KL-AC-SX466.jpg",
+        "description": "A high-performance gaming desktop with advanced cooling and customization options.",
+        "price": 2299,
+        "category": "Desktop",
+        "ratings": 4.7,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Dell"
+    },
+    {
+        "product_name": "HP Omen 45L",
+        "product_image": "https://i.ibb.co/cQ7FR8V/615cb-IHQ3a-L-AC-SX300-SY300-QL70-FMwebp.webp",
+        "description": "The HP Omen 45L offers top-notch gaming performance and upgradeable components.",
+        "price": 2499,
+        "category": "Desktop",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "HP"
+    },
+    {
+        "product_name": "Lenovo ThinkCentre M90t",
+        "product_image": "https://i.ibb.co/F7zK1fk/SKU123238486-1000x1000.jpg",
+        "description": "A reliable business desktop with robust performance and security features.",
+        "price": 999,
+        "category": "Desktop",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Lenovo"
+    },
+    {
+        "product_name": "Acer Predator Orion 3000",
+        "product_image": "https://i.ibb.co/bFV5mn2/81-Ooa-Pmgz-QL-AC-SL1500.jpg",
+        "description": "Designed for gaming enthusiasts, the Acer Predator Orion 3000 offers high performance and stylish design.",
+        "price": 1999,
+        "category": "Desktop",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Acer"
+    },
+    {
+        "product_name": "Samsung Galaxy Watch 5",
+        "product_image": "https://i.ibb.co/3v0n9zK/61-Xev-NLk8-LL-AC-UY327-FMwebp-QL65.webp",
+        "description": "A smart watch with health tracking features and a sleek design.",
+        "price": 299,
+        "category": "Watch",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Samsung"
+    },
+    {
+        "product_name": "Apple Watch Series 8",
+        "product_image": "https://i.ibb.co/RpxdksP/image.png",
+        "description": "The Apple Watch Series 8 offers advanced health monitoring and integration with iOS.",
+        "price": 399,
+        "category": "Watch",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Apple"
+    },
+    {
+        "product_name": "Garmin Forerunner 945",
+        "product_image": "https://i.ibb.co/wQNLR5v/image.png",
+        "description": "A high-performance sports watch with GPS and advanced training features.",
+        "price": 649,
+        "category": "Watch",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Garmin"
+    },
+    {
+        "product_name": "Fitbit Charge 5",
+        "product_image": "https://i.ibb.co/BZXvVM4/image.png",
+        "description": "The Fitbit Charge 5 offers fitness tracking with a sleek and modern design.",
+        "price": 149,
+        "category": "Watch",
+        "ratings": 4.3,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Fitbit"
+    },
+    {
+        "product_name": "Huawei Watch GT 3",
+        "product_image": "https://i.ibb.co/Sc9MnvJ/image.png",
+        "description": "A stylish smartwatch with long battery life and health monitoring features.",
+        "price": 249,
+        "category": "Watch",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Huawei"
+    },
+    {
+        "product_name": "Sony WH-1000XM5",
+        "product_image": "https://i.ibb.co/Wnd5wdV/image.png",
+        "description": "Wireless noise-cancelling headphones with superior sound quality.",
+        "price": 349,
+        "category": "Headphone",
+        "ratings": 4.7,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Sony"
+    },
+    {
+        "product_name": "Bose QuietComfort 45",
+        "product_image": "https://i.ibb.co/z5SRWTj/image.png",
+        "description": "Premium noise-cancelling headphones with exceptional comfort and sound.",
+        "price": 329,
+        "category": "Headphone",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Bose"
+    },
+    {
+        "product_name": "Jabra Elite 85h",
+        "product_image": "https://i.ibb.co/VWqh09S/image.png",
+        "description": "Noise-cancelling headphones with up to 36 hours of battery life.",
+        "price": 299,
+        "category": "Headphone",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Jabra"
+    },
+    {
+        "product_name": "Sennheiser Momentum 4",
+        "product_image": "https://i.ibb.co/k0vyQqd/image.png",
+        "description": "High-quality headphones with active noise cancellation and superior audio performance.",
+        "price": 349,
+        "category": "Headphone",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Sennheiser"
+    },
+    {
+        "product_name": "Microsoft Surface Pro 8",
+        "product_image": "https://i.ibb.co/6wR01Y5/image.png",
+        "description": "A versatile 2-in-1 device that combines the power of a laptop with the flexibility of a tablet.",
+        "price": 1099,
+        "category": "Tablet",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Microsoft"
+    },
+    {
+        "product_name": "Apple iPad Pro 11-inch",
+        "product_image": "https://i.ibb.co/XzLd4rn/image.png",
+        "description": "The iPad Pro 11-inch offers powerful performance and a stunning Liquid Retina display.",
+        "price": 799,
+        "category": "Tablet",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Apple"
+    },
+    {
+        "product_name": "Samsung Galaxy Tab S8",
+        "product_image": "https://i.ibb.co/9tv8vMK/image.png",
+        "description": "A high-performance Android tablet with a vibrant display and S Pen support.",
+        "price": 699,
+        "category": "Tablet",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Samsung"
+    },
+    {
+        "product_name": "Lenovo Yoga Tab 13",
+        "product_image": "https://i.ibb.co/z5SRWTj/image.png",
+        "description": "A 13-inch tablet with a unique design and powerful audio capabilities.",
+        "price": 499,
+        "category": "Tablet",
+        "ratings": 4.3,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Lenovo"
+    },
+    {
+        "product_name": "Acer Chromebook Spin 713",
+        "product_image": "https://i.ibb.co/mh4SHQ1/image.png",
+        "description": "A convertible Chromebook with a high-resolution display and solid performance.",
+        "price": 699,
+        "category": "Laptop",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Acer"
+    },
+    {
+        "product_name": "HP Spectre x360",
+        "product_image": "https://i.ibb.co/1zxX8p5/image.png",
+        "description": "A sleek and powerful convertible laptop with a high-resolution display and long battery life.",
+        "price": 1299,
+        "category": "Laptop",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "HP"
+    },
+    {
+        "product_name": "Google Pixelbook Go",
+        "product_image": "https://i.ibb.co/GFjJnCS/61ds-Jm45m3-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "A lightweight Chromebook with a vibrant display and long battery life.",
+        "price": 649,
+        "category": "Laptop",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Google"
+    },
+    {
+        "product_name": "MSI GS66 Stealth",
+        "product_image": "https://ibb.co/PZmjpDL",
+        "description": "A high-performance gaming laptop with a sleek design and powerful hardware.",
+        "price": 1699,
+        "category": "Laptop",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "MSI"
+    },
+    {
+        "product_name": "Razer Blade 15",
+        "product_image": "https://i.ibb.co/jH9GF7s/61qymf-Yk9b-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "A premium gaming laptop with a slim profile and high-end specifications.",
+        "price": 1899,
+        "category": "Laptop",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Razer"
+    },
+    {
+        "product_name": "HP Elite Dragonfly",
+        "product_image": "https://i.ibb.co/JmnZNSC/71-Rk-N3-WRIBL-AC-UY327-FMwebp-QL65.webp",
+        "description": "A lightweight and stylish business laptop with advanced security features.",
+        "price": 2099,
+        "category": "Laptop",
+        "ratings": 4.7,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "HP"
+    },
+    {
+        "product_name": "Dell G5 Gaming Desktop",
+        "product_image": "https://ibb.co/jJggvN3",
+        "description": "A gaming desktop with a sleek design and powerful performance for an immersive gaming experience.",
+        "price": 1499,
+        "category": "Desktop",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Dell"
+    },
+    {
+        "product_name": "MSI Trident X Plus",
+        "product_image": "https://i.ibb.co/gVLvj5J/71rq9-E3d-CZL-AC-UY327-FMwebp-QL65.webp",
+        "description": "A compact yet powerful gaming desktop with top-of-the-line components.",
+        "price": 1799,
+        "category": "Desktop",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "MSI"
+    },
+    {
+        "product_name": "Lenovo Legion Tower 7i",
+        "product_image": "https://i.ibb.co/9WsXPJ6/715xl-Ia-YQl-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "A high-performance gaming desktop with customizable options and superior cooling.",
+        "price": 1599,
+        "category": "Desktop",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Lenovo"
+    },
+    {
+        "product_name": "Gigabyte AORUS C300",
+        "product_image": "https://i.ibb.co/8jbZBrW/41-BKB8g2-Xj-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "A gaming desktop case with a sleek design and ample room for high-end components.",
+        "price": 129,
+        "category": "Desktop",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Gigabyte"
+    },
+    {
+        "product_name": "Asus TUF Gaming Desktop",
+        "product_image": "https://i.ibb.co/nspCC5C/71-DP0v5-Vqh-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "A durable gaming desktop with a rugged design and powerful performance.",
+        "price": 1399,
+        "category": "Desktop",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Asus"
+    },
+
+
+    {
+        "product_name": "Fossil Gen 6",
+        "product_image": "https://i.ibb.co/CPpxnt3/71-ZNFMf-Wy-PL-AC-UY327-FMwebp-QL65.webp",
+        "description": "A stylish smartwatch with various health and fitness tracking features.",
+        "price": 299,
+        "category": "Watch",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Fossil"
+    },
+    {
+        "product_name": "Suunto 9 Peak",
+        "product_image": "https://i.ibb.co/vPXXLfT/81mr5y-OC4-ML-AC-UL480-FMwebp-QL65.webp",
+        "description": "A rugged and durable smartwatch designed for athletes and outdoor enthusiasts.",
+        "price": 499,
+        "category": "Watch",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Suunto"
+    },
+    {
+        "product_name": "Casio G-Shock GA2100",
+        "product_image": "https://i.ibb.co/89RT6tR/71nq-Wq-CFTk-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "A durable and shock-resistant watch with a modern design.",
+        "price": 99,
+        "category": "Watch",
+        "ratings": 4.3,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Casio"
+    },
+    {
+        "product_name": "Garmin Instinct 2",
+        "product_image": "https://i.ibb.co/Z2zMyRh/51-QDrx-JYu-GL-AC-UY327-FMwebp-QL65.webp",
+        "description": "A rugged smartwatch with advanced GPS tracking and durability for outdoor adventures.",
+        "price": 299,
+        "category": "Watch",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Garmin"
+    },
+    {
+        "product_name": "Withings ScanWatch",
+        "product_image": "https://i.ibb.co/t8SMfT0/61-YULk-Qow-XL-AC-UY327-FMwebp-QL65.webp",
+        "description": "A hybrid smartwatch with advanced health tracking and a classic design.",
+        "price": 249,
+        "category": "Watch",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Withings"
+    },
+    {
+        "product_name": "Razer Naga X",
+        "product_image": "https://i.ibb.co/smHv90w/71zp7-CMBb0-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "A gaming mouse with 16 programmable buttons and customizable RGB lighting.",
+        "price": 79,
+        "category": "Accessory",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Razer"
+    },
+    {
+        "product_name": "Logitech MX Master 3",
+        "product_image": "https://i.ibb.co/61zRs2B/81-L4-Fpe-S3-VL-AC-UY327-FMwebp-QL65.webp",
+        "description": "An ergonomic mouse with advanced features and customizable buttons.",
+        "price": 99,
+        "category": "Accessory",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Logitech"
+    },
+
+    {
+        "product_name": "Corsair K95 RGB Platinum",
+        "product_image": "https://i.ibb.co/SfTRzSF/71ex-Y5-PBro-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "A mechanical gaming keyboard with customizable RGB lighting and macro keys.",
+        "price": 199,
+        "category": "Accessory",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Corsair"
+    },
+    {
+        "product_name": "SteelSeries Arctis 7",
+        "product_image": "https://i.ibb.co/JHpH8Kf/61e-G0i-YBj-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "Wireless gaming headset with high-quality sound and a comfortable fit.",
+        "price": 149,
+        "category": "Accessory",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "SteelSeries"
+    },
+    {
+        "product_name": "Wacom Intuos Pro",
+        "product_image": "https://i.ibb.co/nkgc79x/61-Manl-Jw-Ek-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "A professional-grade drawing tablet with pressure-sensitive pen and customizable controls.",
+        "price": 379,
+        "category": "Accessory",
+        "ratings": 4.7,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Wacom"
+    },
+    {
+        "product_name": "Sony WH-CH710N",
+        "product_image": "https://i.ibb.co/XYSjdsC/61-XPa-XXm-B3-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "Wireless noise-cancelling headphones with up to 35 hours of battery life.",
+        "price": 199,
+        "category": "Headphone",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Sony"
+    },
+    {
+        "product_name": "Bose SoundLink Revolve",
+        "product_image": "https://i.ibb.co/YbnWLVG/519-Xarf-ODPL-AC-UY327-FMwebp-QL65.webp",
+        "description": "Portable Bluetooth speaker with 360-degree sound and water resistance.",
+        "price": 229,
+        "category": "Accessory",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Bose"
+    },
+    {
+        "product_name": "JBL Flip 6",
+        "product_image": "https://i.ibb.co/M5mYyy2/61-vo-Fa3-Zf-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "Portable Bluetooth speaker with powerful sound and long battery life.",
+        "price": 129,
+        "category": "Accessory",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "JBL"
+    },
+    {
+        "product_name": "Sonos One",
+        "product_image": "https://i.ibb.co/SfRrg6k/81x-Phh513c-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "Smart speaker with voice control and high-quality sound.",
+        "price": 199,
+        "category": "Accessory",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Sonos"
+    },
+    {
+        "product_name": "Nikon Z6 II",
+        "product_image": "https://i.ibb.co/r3LDdwY/719z-CUIFVL-AC-UY327-FMwebp-QL65.webp",
+        "description": "A full-frame mirrorless camera with advanced features and high-quality imaging.",
+        "price": 1999,
+        "category": "Camera",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Nikon"
+    },
+
+    {
+        "product_name": "Canon EOS R5",
+        "product_image": "https://i.ibb.co/7rBZgVJ/81jl-Dv-ZPMn-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "A high-performance mirrorless camera with impressive resolution and autofocus capabilities.",
+        "price": 3899,
+        "category": "Camera",
+        "ratings": 4.7,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Canon"
+    },
+    {
+        "product_name": "Sony Alpha 7 IV",
+        "product_image": "https://i.ibb.co/G5k7Fpn/51-XHzgl-H82-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "A full-frame mirrorless camera with high resolution and advanced video capabilities.",
+        "price": 2499,
+        "category": "Camera",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Sony"
+    },
+    {
+        "product_name": "Fujifilm X-T4",
+        "product_image": "https://i.ibb.co/rkCRtTK/81-Yi-WM8-RIRL-AC-UY327-FMwebp-QL65.webp",
+        "description": "A versatile mirrorless camera with excellent image quality and in-body stabilization.",
+        "price": 1699,
+        "category": "Camera",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Fujifilm"
+    },
+    {
+        "product_name": "Olympus OM-D E-M1 Mark III",
+        "product_image": "https://i.ibb.co/k3TrdTx/51mc-DVUBax-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "A compact mirrorless camera with high-quality imaging and advanced features.",
+        "price": 1399,
+        "category": "Camera",
+        "ratings": 4.4,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Olympus"
+    },
+    {
+        "product_name": "GoPro HERO10 Black",
+        "product_image": "https://i.ibb.co/GdFFB3N/61-LAgd-O1d-BL-AC-UL480-FMwebp-QL65.webp",
+        "description": "A high-performance action camera with advanced stabilization and 5.3K video recording.",
+        "price": 499,
+        "category": "Camera",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "GoPro"
+    },
+    {
+        "product_name": "DJI Mavic Air 2",
+        "product_image": "https://i.ibb.co/vzCXtWY/61-Tcj-J4q-DZL-AC-UL480-FMwebp-QL65.webp",
+        "description": "A compact drone with high-resolution camera and intelligent shooting modes.",
+        "price": 799,
+        "category": "Drone",
+        "ratings": 4.7,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "DJI"
+    },
+    {
+        "product_name": "Parrot Anafi",
+        "product_image": "https://i.ibb.co/xhFfHDX/61vufzhh-Q6-L-AC-UY327-FMwebp-QL65.webp",
+        "description": "A portable drone with a 4K HDR camera and 21 MP photo capabilities.",
+        "price": 699,
+        "category": "Drone",
+        "ratings": 4.5,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Parrot"
+    },
+    {
+        "product_name": "Autel Robotics EVO Lite+",
+        "product_image": "https://i.ibb.co/pfcQtg0/61fb-YPFOo-SL-AC-UL480-FMwebp-QL65.webp",
+        "description": "A high-performance drone with a large sensor and long flight time.",
+        "price": 1199,
+        "category": "Drone",
+        "ratings": 4.6,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Autel Robotics"
+    },
+    {
+        "product_name": "Skydio 2",
+        "product_image": "https://i.ibb.co/ctvwM71/61-B-e-Pmp-FWL-AC-UL480-FMwebp-QL65.webp",
+        "description": "A drone with advanced autonomous flight capabilities and obstacle avoidance.",
+        "price": 999,
+        "category": "Drone",
+        "ratings": 4.7,
+        "product_creation_date_and_time": "2024-08-15T00:00:00Z",
+        "brand_name": "Skydio"
+    }
+]
+
+
+
+
+

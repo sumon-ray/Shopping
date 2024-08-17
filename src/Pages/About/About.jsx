@@ -4,7 +4,10 @@ import { Suspense } from "react";
 import useFetch from "../../Hooks/UseFetch";
 // import useFetch from "../../../Hooks/UseFetch";
 const About = () => {
-  const { data } = useFetch("data", "http://localhost:5000/books");
+  const { data } = useFetch(
+    "data",
+    "https://pagination-ten-green.vercel.app/books"
+  );
 
   return (
     <Suspense fallback={<div>Loading...</div>}>

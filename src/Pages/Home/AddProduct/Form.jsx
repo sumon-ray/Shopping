@@ -19,7 +19,10 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     try {
-      const response = axios.post("http://localhost:5000/addProduct", Product);
+      const response = axios.post(
+        "https://pagination-ten-green.vercel.app/addProduct",
+        Product
+      );
       if (response.status == 200) {
         toast.success("product added successfully");
       }

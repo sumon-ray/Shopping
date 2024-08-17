@@ -8,7 +8,9 @@ const Details = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/books/${id}`);
+        const response = await fetch(
+          `https://pagination-ten-green.vercel.app/books/${id}`
+        );
         if (!response.ok) {
           throw new Error("Product not found");
         }

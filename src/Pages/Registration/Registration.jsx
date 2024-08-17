@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import signUp from '../../../src/assets/signUp.svg';
 import UseAuth from '../../Hooks/UseAuth';
+import { toast } from 'react-toastify';
 
 const Registration = () => {
     const { registerUser,loginWithGoogle } = UseAuth();
@@ -19,7 +20,7 @@ const Registration = () => {
         e.preventDefault();
         const { email, password } = product;
         registerUser(email, password);
-        alert('regestered successfully')
+        toast('regestered successfully')
         navigate("/login");
 
         // Pass email and password to the registerUser function
@@ -30,7 +31,7 @@ const Registration = () => {
             <div className="hidden md:block">
                 <img className='w-full' src={signUp} alt="Sign Up" />
             </div>
-            <div className="outline lg:w-4/12 flex mx-auto flex-col p-8 rounded-md sm:p-10 dark:bg-gray-50 dark:text-gray-800">
+            <div className="outline bg-black lg:w-4/12 flex mx-auto flex-col p-8 rounded-md sm:p-10 dark:bg-gray-50 dark:text-gray-800">
                 <div className="mb-8 text-center">
                     <h1 className="my-3 text-4xl font-bold">Sign Up</h1>
                     <p className="text-sm dark:text-gray-600">Sign in to access your account</p>

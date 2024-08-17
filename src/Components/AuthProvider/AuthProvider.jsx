@@ -8,7 +8,7 @@ import {
   signOut,
 } from "firebase/auth";
 import { createContext, useEffect, useState } from "react";
-import toast from "react-hot-toast";
+import {toast} from "react-toastify";
 import auth from "../../Firebase/Firebase";
 // import auth from "../firebase/firebase";
 export const UserContext = createContext();
@@ -38,7 +38,7 @@ const AuthProvider = ({ children }) => {
     try {
       const result = await signInWithPopup(auth, googleProvider);
       // setLoading(true)
-      toast.success("Logged in successfully");
+      toast("Logged in successfully");
     } catch (error) {
       // Handle errors if any
       console.error("Google login error:", error.message);
